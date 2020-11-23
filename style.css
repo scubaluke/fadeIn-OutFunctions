@@ -1,6 +1,8 @@
 .elementToFadeInOrOut {
-  transition: ease-in-out 350ms;
   display: none;
+  opacity: 0;
+  /*display changed to flex with set timeout @ 20ms to change opacity to 1 triggering transition effect */
+  transition: ease-in-out 350ms;
   position: fixed;
   top: 0;
   left: 0;
